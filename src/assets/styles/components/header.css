@@ -12,3 +12,7 @@
 .header__checkout span {
     font-size: 24px;
 }
+
+.header__checkout a {
+    color: #FFF;
+}

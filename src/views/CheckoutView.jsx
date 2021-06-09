@@ -4,7 +4,7 @@ import '../assets/styles/views/checkout-view.css';
 export const CheckoutView = () => {
     return (
         <div className="checkout">
-            <h1>Checkout view</h1>
+            <h1>Order List</h1>
             <div className="checkout__products">
                 <div className="row">
                     <div className="checkout__product">                    

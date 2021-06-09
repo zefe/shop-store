@@ -7,20 +7,23 @@ import {
 import { Layout } from '../components/Layout/Layout';
 import { CheckoutView } from '../views/CheckoutView';
 import { HomeView } from '../views/HomeView';
-import { InformationView } from '../views/InformationView';
 import { NotFoundView } from '../views/NotFoundView';
+import AppContext from '../context/AppContext';
+import useInitialState from '../hooks/useInitialState';
 
 export const AppRouter = () => {
-    return (   
-        <Router>
-            <Layout>
-                <Switch>
-                    <Route exact path="/" component={ HomeView } />
-                    <Route exact path="/checkout" component={ CheckoutView } />
-                    <Route exact path="/checkout/information" component={ InformationView } />
-                    <Route component={ NotFoundView } />
-                </Switch>
-            </Layout>
-        </Router>
+    const initialState = useInitialState();
+    return (
+        <AppContext.Provider value={ useInitialState }>
+            <Router>
+                <Layout>
+                    <Switch>
+                        <Route exact path="/" component={ HomeView } />
+                        <Route exact path="/checkout" component={ CheckoutView } />
+                        <Route component={ NotFoundView } />
+                    </Switch>
+                </Layout>
+            </Router>
+        </AppContext.Provider>
     )
 }
