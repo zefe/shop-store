@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Products } from '../components/Products/Products';
+import data from '../data/products';
 
 export const HomeView = () => {
+    console.log(data)
     return (
-        <div>
-            <h1>Home view</h1>
-        </div>
+        <>
+            <Products products={ data } />
+        </>
     )
 }

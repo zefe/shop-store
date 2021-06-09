@@ -1,48 +1,60 @@
 const products = [
     {
       id: 1,
-      name: "Shoes",
-      productType: "Running shoes",
-      price: 50,
-      rating: 4,
-      image:
-        "https://s2.r29static.com/bin/entry/ebd/0,675,2000,1050/x,80/1929471/image.jpg",
-      description:
-        "Nike Air is our iconic innovation that uses pressurized air in a durable, flexible membrane to provide lightweight cushioning. The air compresses on impact and then immediately returns to its original shape and volume, ready for the next impact. We debuted Nike Air in 1979, and we've been continuously evolving and improving it ever since.",
+      name: "Tablet Huawei Mediapad T3 10 Wifi, 9.6 Ips, 3+32gb, Gris",
+      price: 3099,
+      image:"https://http2.mlstatic.com/D_Q_NP_816236-MLM46057237362_052021-V.webp",
+      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci dui, laoreet quis risus ut, vulputate mollis mauris. Sed sed vestibulum dui.",
     },
     {
       id: 2,
-      name: "Macbook",
-      productType: "Apple Mcbook",
-      price: 1000,
-      rating: 4,
-      image:
-        "https://cnet3.cbsistatic.com/img/yjrw7VgWV7a95AvK8Ym0Np4bFXY=/1200x675/2017/06/27/13484418-bfd9-41e2-8f2d-9b4afb072da8/apple-macbook-pro-15-inch-2017-14.jpg",
-      description:
-        "Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels. It is powered by a Core i5 processor and it comes with 12GB of RAM. The Apple MacBook Pro packs 512GB of SSD storage.",
+      name: "Xiaomi Redmi Note 10 Dual SIM 64 GB verde lago 4 GB RAM",
+      price: 5838,
+      image:"https://http2.mlstatic.com/D_Q_NP_694642-MLA46168604008_052021-V.webp",
+      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci dui, laoreet quis risus ut, vulputate mollis mauris. Sed sed vestibulum dui.",
     },
     {
       id: 3,
-      name: "Coffee Maker",
-      productType: "L14dc19 Black Filter Coffee Machine",
-      price: 28,
-      rating: 3,
-      image:
-        "https://brain-images-ssl.cdn.dixons.com/4/9/10189494/u_10189494.jpg",
-      description:
-        "Coffeemakers or coffee machines are cooking appliances used to brew coffee. While there are many different types of coffeemakers using several different brewing principles, in the most common devices, coffee grounds are placed into a paper or metal filter inside a funnel, which is set over a glass or ceramic coffee pot, a cooking pot in the kettle family.",
+      name: "Reloj Inteligente Deportivo Impermeable Con Bluetooth",
+      price: 2092,
+      image:"https://http2.mlstatic.com/D_Q_NP_610800-MLM43278257447_082020-V.webp",
+      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci dui, laoreet quis risus ut, vulputate mollis mauris. Sed sed vestibulum dui.",
     },
     {
       id: 4,
-      name: "Sweater",
-      productType: "Xbox Christmas Sweater",
-      price: 42,
-      rating: 5,
-      image:
-        "https://merchoidcdn-pveiw4zwh96ot9z.netdna-ssl.com/media/catalog/product/cache/65c63282a2b3bd0da0ec5b004bcde549/x/b/xbox-jumper.jpg",
-      description:
-        "PC or Mac. Pepsi or Coke. Xbox or…that other console. It isn’t always easy to show your allegiances, especially when you’re bundled up for the holidays, but this jumper will let you make it abundantly clear what type of games you want to find under your tree.",
+      name: "Camara Vigilancia Wifi Tp-link Tapo C310",
+      price: 185,
+      image:"https://http2.mlstatic.com/D_Q_NP_925729-MLM44405791331_122020-V.webp",
+      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci dui, laoreet quis risus ut, vulputate mollis mauris. Sed sed vestibulum dui.",
     },
+    {
+      id: 5,
+      name: "Silla Gamer Pc Consola Ergonomica Reclinable",
+      price: 2089,
+      image:"https://http2.mlstatic.com/D_Q_NP_790833-MLM46246097659_062021-V.webp",
+      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci dui, laoreet quis risus ut, vulputate mollis mauris. Sed sed vestibulum dui.",
+    },
+    {
+      id: 6,
+      name: "Xiaomi Poco X3 Pro 8+256gb Nfc Snapdragon 860 Dual Sim",
+      price: 6582,
+      image:"https://http2.mlstatic.com/D_Q_NP_729058-CBT45734125221_042021-V.webp",
+      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci dui, laoreet quis risus ut, vulputate mollis mauris. Sed sed vestibulum dui.",
+    },
+    {
+      id: 7,
+      name: "Smartwatch Haylou Smart Watch 2 1.28",
+      price: 4654,
+      image:"https://http2.mlstatic.com/D_Q_NP_713420-MLA44753451540_012021-V.webp",
+      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci dui, laoreet quis risus ut, vulputate mollis mauris. Sed sed vestibulum dui.",
+    },
+    {
+      id: 8,
+      name: "Macbook Air 13.3 2019 Core I5 128gb 8gb Ram",
+      price: 22888,
+      image:"https://http2.mlstatic.com/D_Q_NP_618401-MLM45627648395_042021-V.webp",
+      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci dui, laoreet quis risus ut, vulputate mollis mauris. Sed sed vestibulum dui.",
+    }
   ];
   
   export default products;
