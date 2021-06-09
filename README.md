@@ -12,7 +12,7 @@ These instructions will get you a copy of the project up and running on your loc
 Clone this repo
 
 ```
-git clone https://github.com/zefe/
+git clone https://github.com/zefe/shop-store.git
 ```
 
 ### Prerequisites
