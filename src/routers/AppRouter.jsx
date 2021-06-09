@@ -12,9 +12,11 @@ import AppContext from '../context/AppContext';
 import useInitialState from '../hooks/useInitialState';
 
 export const AppRouter = () => {
+
     const initialState = useInitialState();
+    
     return (
-        <AppContext.Provider value={ useInitialState }>
+        <AppContext.Provider value={ initialState }>
             <Router>
                 <Layout>
                     <Switch>
