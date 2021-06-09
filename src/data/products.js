@@ -25,9 +25,9 @@
       },
       {
         id: 4,
-        name: "Camara Vigilancia Wifi Tp-link Tapo C310",
-        price: 185,
-        image:"https://http2.mlstatic.com/D_Q_NP_925729-MLM44405791331_122020-V.webp",
+        name: "Silla Gamer Pc Consola Ergonomica Reclinable",
+        price: 2089,
+        image:"https://http2.mlstatic.com/D_Q_NP_790833-MLM46246097659_062021-V.webp",
         description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci dui, laoreet quis risus ut, vulputate mollis mauris. Sed sed vestibulum dui.",
       },
       {

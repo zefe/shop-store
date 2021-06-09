@@ -7,7 +7,6 @@ export const Product = ({ product, handleAddToCart }) => {
             <img src={ product.image } alt={ product.title }  />
             <h2>$ { product.price} </h2>
             <p>{ product.name }</p>
-            <small>{ product.productType }</small>
             <button
                 type="button"
                 onClick={ handleAddToCart(product) }

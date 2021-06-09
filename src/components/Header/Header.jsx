@@ -21,8 +21,8 @@ export const Header = () => {
             <div className="header__checkout">
                 <Link to="/checkout" >
                     <span className="ti-shopping-cart"></span>
-                </Link>
-                {cart.length > 0 && <div className="header__alert"><p>{ cart.length }</p></div>}          
+                    {cart.length > 0 && <div className="header__alert"><p>{ cart.length }</p></div>}
+                </Link>          
             </div>
         </div>
     )
